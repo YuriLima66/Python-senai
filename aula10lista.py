@@ -14,11 +14,11 @@ import os #A Biblioteca OS Python oferece uma vasta gama
 lista = [] #Criando uma lista vazia
 
 while True:#Enquanto for Verdade
-    print('Selecione uma opção')#Escreva ('Selecione uma opção')
+    print('Selecione uma opcao')#Escreva ('Selecione uma opção')
     opcao = input('[i]nserir [a]pagar [l]istar: ')#variavel = digite('[i]p/inserir, [a]p/apagar, [l]p/listar)
 
     if opcao == 'i':#Verificando se minha variável foi digitada.
-        os.system('clear')#armazenando e limpando meu código
+        os.system('cls')#armazenando e limpando meu código
         valor = input('Valor: ')#Armazenando um valor digitado
         lista.append(valor)#Adicionando um item na minha lista
     elif opcao == 'a':#Verificando se minha variável "a" foi digitada(ou seja se existir mais de um aopção).
