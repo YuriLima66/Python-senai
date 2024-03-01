@@ -90,7 +90,7 @@ print(f'{"Z4 do Brasileirão":^30}')
 print('-'*40)#Escreva, Criando minha linha trasejada(Parte de baixo, exatos 40)
 print('\n')#Escreve('\n, Quebre uma linha')
 
-for i in range(1, len(times)):#loop, variável pega o numero 1 até o comprimento da lista.Intervalo(1, Contar(variavel)):
+for i in range(1, len(times)+1):#loop, variável pega o numero 1 até o comprimento da lista.Intervalo(1, Contar(variavel)):
   print(f'{times[-i]:.<30}', end='')#Escrever(formate'mostrar{variavel "time"[-buscar pontuação do time]})
   print(f'{pontuacao[-i]} PONTOS')#Escreva(formate{mostre"pontuação[i]})
 
