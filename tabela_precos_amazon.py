@@ -34,4 +34,5 @@ while True:
     break
 
 
-print(f'O valor total da compra foi de \033[1;35m{sum(carrinho):.2f}'
+
+print (f'O valor total da compra foi de \033[1;35m{sum(carrinho):.2f}')
